@@ -1,8 +1,9 @@
 import "./styles.css"
-import project01 from"../../img/projects/01.jpg"
+import { projects } from "../../helpers/projectsList";
+import project01 from "../../img/projects/project01.png"
 
 
-const Project = () => {
+const Project = (props) => {
     return ( 
         <li className="project">
         <a href="./project-page.html">
@@ -11,7 +12,8 @@ const Project = () => {
             alt="Project img"
             className="project__img"
           />
-          <h3 className="project__title">Gaming streaming portal</h3>
+          {console.log({projects})}
+          <h3 className="project__title">{props.tittle}</h3>
         </a>
       </li>
      );
