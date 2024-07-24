@@ -8,7 +8,9 @@ const Projects = () => {
         <h2 className="title-1">Projects</h2>
         <ul className="projects">
           {projects.map((project) => {
-            return <Project tittle={project.title} />;
+            return (
+              <Project tittle={project.title} img={project.img} />
+            );
           })}
         </ul>
       </div>
