@@ -1,9 +1,14 @@
 
+import BtnDownloadCv from "../btnDownloadCv/BtnDownloadCv";
+
+import myCv from "../../helpers/My cv.pdf";
 import "./style.css"
 import foto from "../../img/fotoPortfolio.jpg"
 
 
 const Header = () => {
+
+
     return ( <header className="header">
     <div className="header__wrapper">
       <h1 className="header__title">
@@ -19,11 +24,7 @@ const Header = () => {
       <div>
         <img src={foto} alt="" className="myFoto" />
       </div>
-      <div>
-        <a href="#!" className="btn">
-          Download CV
-        </a>
-      </div>
+     <BtnDownloadCv myCv={myCv}/>
     </div>
   </header>
 );
