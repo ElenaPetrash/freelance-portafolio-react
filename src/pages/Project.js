@@ -14,9 +14,9 @@ const Project = () => {
       <div className="container">
         <div className="project-details">
           <h1 className="title-1">{project.title}</h1>
-          <p>{id}</p>
+          
 
-          <img src={img} alt="" className="project-details__cover" />
+          <img src={project.img} alt="" className="project-details__cover" />
 
           <div className="project-details__desc">
             <p>{project.skills}</p>
