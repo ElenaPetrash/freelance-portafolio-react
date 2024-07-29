@@ -12,7 +12,7 @@ const projects = [
   },
   {
     title: "Music way",
-    skills: "TypeScript, React.js, DataBases, SQL, HTML, CSS",
+    skills: "TypeScript, React.js, DataBases, SQL, HTML, CSS, StyledComponents",
     img: project02,
     gitHubLink:
       "https://github.com/ElenaPetrash/MusicWay",

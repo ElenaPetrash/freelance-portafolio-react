@@ -26,9 +26,7 @@ function Footer() {
               </a>
             </li>
           </ul>
-          <div className="copyright">
-            <p>© 2022 frontend-dev.com</p>
-          </div>
+          <div className="copyright"></div>
         </div>
       </div>
     </footer>
